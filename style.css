@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+.hidden {
+  display: none;
+}
+
+body {
+  background: linear-gradient(0.25turn, #F05945, #F7F3E9, #5EAAA8);
+  min-height: 50vh;
+  padding-top: 10vh;
+  font-size: 20px;
+  text-shadow: 2px 2px 4px white;
+}
+
+h1, h3, h6 {
+  text-align: center;
+}
+
+#lose-message, #win-message, #lower-message, #higher-message {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px white;
+}
+
+#guess-input, #make-guess {
+  display: block;
+  margin: 15px auto;
+}
+
+#make-guess {
+  border-radius: 5px;
+  padding: 8px;
+  border: 1px solid black;
+  box-shadow: 2px 4px 3px #5EAAA8;
+  color: white;
+  background-color: #F05945;
+  font-weight: bold;
+  font-size: 18px;
+  text-shadow: 2px 2px 4px black;
+}
+
+.playAgainButton {
+  display: inline-block;
+  margin: 15px 15px;
+  border-radius: 8px;
+  padding: 8px;
+  border: 1px solid black;
+  box-shadow: 2px 4px 3px #F05945;
+  color: white;
+  background-color: #5EAAA8;
+  font-weight: bold;
+  font-size: 18px;
+  text-shadow: 2px 2px 4px black;
+}
